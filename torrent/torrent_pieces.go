@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cenkalti/rain/internal/handshaker/outgoinghandshaker"
+	"github.com/kyoto44/rain/handshaker/outgoinghandshaker"
 )
 
 func (t *torrent) writeBitfield() error {

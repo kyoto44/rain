@@ -4,15 +4,15 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/cenkalti/rain/internal/bitfield"
-	"github.com/cenkalti/rain/internal/cachedpiece"
-	"github.com/cenkalti/rain/internal/peer"
-	"github.com/cenkalti/rain/internal/peerconn/peerwriter"
-	"github.com/cenkalti/rain/internal/peerprotocol"
-	"github.com/cenkalti/rain/internal/peersource"
-	"github.com/cenkalti/rain/internal/piecedownloader"
-	"github.com/cenkalti/rain/internal/piecewriter"
-	"github.com/cenkalti/rain/internal/tracker"
+	"github.com/kyoto44/rain/bitfield"
+	"github.com/kyoto44/rain/cachedpiece"
+	"github.com/kyoto44/rain/peer"
+	"github.com/kyoto44/rain/peerconn/peerwriter"
+	"github.com/kyoto44/rain/peerprotocol"
+	"github.com/kyoto44/rain/peersource"
+	"github.com/kyoto44/rain/piecedownloader"
+	"github.com/kyoto44/rain/piecewriter"
+	"github.com/kyoto44/rain/tracker"
 )
 
 func (t *torrent) handlePieceMessage(pm peer.PieceMessage) {

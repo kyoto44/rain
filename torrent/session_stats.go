@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/cenkalti/rain/internal/resumer/boltdbresumer"
+	"github.com/kyoto44/rain/resumer/boltdbresumer"
 	"go.etcd.io/bbolt"
 )
 

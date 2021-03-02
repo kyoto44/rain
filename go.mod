@@ -1,6 +1,6 @@
-module github.com/cenkalti/rain
+module github.com/kyoto44/rain
 
-go 1.13
+go 1.16
 
 require (
 	github.com/boltdb/bolt v1.3.1

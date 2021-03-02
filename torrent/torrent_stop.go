@@ -1,10 +1,10 @@
 package torrent
 
 import (
-	"github.com/cenkalti/rain/internal/announcer"
-	"github.com/cenkalti/rain/internal/handshaker/incominghandshaker"
-	"github.com/cenkalti/rain/internal/handshaker/outgoinghandshaker"
-	"github.com/cenkalti/rain/internal/tracker"
+	"github.com/kyoto44/rain/announcer"
+	"github.com/kyoto44/rain/handshaker/incominghandshaker"
+	"github.com/kyoto44/rain/handshaker/outgoinghandshaker"
+	"github.com/kyoto44/rain/tracker"
 	"github.com/rcrowley/go-metrics"
 )
 

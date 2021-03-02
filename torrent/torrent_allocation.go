@@ -3,10 +3,10 @@ package torrent
 import (
 	"fmt"
 
-	"github.com/cenkalti/rain/internal/allocator"
-	"github.com/cenkalti/rain/internal/bitfield"
-	"github.com/cenkalti/rain/internal/piece"
-	"github.com/cenkalti/rain/internal/piecepicker"
+	"github.com/kyoto44/rain/allocator"
+	"github.com/kyoto44/rain/bitfield"
+	"github.com/kyoto44/rain/piece"
+	"github.com/kyoto44/rain/piecepicker"
 )
 
 func (t *torrent) handleAllocationDone(al *allocator.Allocator) {

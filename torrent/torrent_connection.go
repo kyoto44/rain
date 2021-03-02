@@ -3,7 +3,7 @@ package torrent
 import (
 	"net"
 
-	"github.com/cenkalti/rain/internal/handshaker/incominghandshaker"
+	"github.com/kyoto44/rain/handshaker/incominghandshaker"
 )
 
 func (t *torrent) handleNewConnection(conn net.Conn) {

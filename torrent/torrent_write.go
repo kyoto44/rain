@@ -4,10 +4,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cenkalti/rain/internal/peer"
-	"github.com/cenkalti/rain/internal/peerprotocol"
-	"github.com/cenkalti/rain/internal/piecewriter"
-	"github.com/cenkalti/rain/internal/urldownloader"
+	"github.com/kyoto44/rain/peer"
+	"github.com/kyoto44/rain/peerprotocol"
+	"github.com/kyoto44/rain/piecewriter"
+	"github.com/kyoto44/rain/urldownloader"
 )
 
 func (t *torrent) handlePieceWriteDone(pw *piecewriter.PieceWriter) {

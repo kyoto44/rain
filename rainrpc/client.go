@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/cenkalti/rain/internal/rpctypes"
+	"github.com/kyoto44/rain/rpctypes"
 	"github.com/powerman/rpc-codec/jsonrpc2"
 )
 

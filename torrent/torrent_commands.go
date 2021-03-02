@@ -5,9 +5,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/cenkalti/rain/internal/magnet"
-	"github.com/cenkalti/rain/internal/metainfo"
-	"github.com/cenkalti/rain/internal/tracker"
+	"github.com/kyoto44/rain/magnet"
+	"github.com/kyoto44/rain/metainfo"
+	"github.com/kyoto44/rain/tracker"
 )
 
 // Start downloading.

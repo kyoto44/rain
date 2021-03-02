@@ -3,7 +3,7 @@ package torrent
 import (
 	"time"
 
-	"github.com/cenkalti/rain/internal/metainfo"
+	"github.com/kyoto44/rain/metainfo"
 )
 
 var (

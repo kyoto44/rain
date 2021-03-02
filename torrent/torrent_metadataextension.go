@@ -6,9 +6,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cenkalti/rain/internal/bufferpool"
-	"github.com/cenkalti/rain/internal/peer"
-	"github.com/cenkalti/rain/internal/peerprotocol"
+	"github.com/kyoto44/rain/bufferpool"
+	"github.com/kyoto44/rain/peer"
+	"github.com/kyoto44/rain/peerprotocol"
 )
 
 func (t *torrent) handleMetadataMessage(pe *peer.Peer, msg peerprotocol.ExtensionMetadataMessage) {

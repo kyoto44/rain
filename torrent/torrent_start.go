@@ -3,16 +3,16 @@ package torrent
 import (
 	"net"
 
-	"github.com/cenkalti/rain/internal/acceptor"
-	"github.com/cenkalti/rain/internal/allocator"
-	"github.com/cenkalti/rain/internal/announcer"
-	"github.com/cenkalti/rain/internal/peer"
-	"github.com/cenkalti/rain/internal/piecedownloader"
-	"github.com/cenkalti/rain/internal/piecepicker"
-	"github.com/cenkalti/rain/internal/tracker"
-	"github.com/cenkalti/rain/internal/urldownloader"
-	"github.com/cenkalti/rain/internal/verifier"
-	"github.com/cenkalti/rain/internal/webseedsource"
+	"github.com/kyoto44/rain/acceptor"
+	"github.com/kyoto44/rain/allocator"
+	"github.com/kyoto44/rain/announcer"
+	"github.com/kyoto44/rain/peer"
+	"github.com/kyoto44/rain/piecedownloader"
+	"github.com/kyoto44/rain/piecepicker"
+	"github.com/kyoto44/rain/tracker"
+	"github.com/kyoto44/rain/urldownloader"
+	"github.com/kyoto44/rain/verifier"
+	"github.com/kyoto44/rain/webseedsource"
 	"github.com/rcrowley/go-metrics"
 )
 
