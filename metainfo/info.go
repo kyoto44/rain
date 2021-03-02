@@ -241,7 +241,7 @@ func NewInfoBytes(root string, paths []string, private bool, pieceLength uint32,
 			}
 			defer f.Close()
 			relpath, err := filepath.Rel(relroot, vpath)
-			log.Infof("Adding %q", relpath)
+			//log.Infof("Adding %q", relpath)
 			if err != nil {
 				return err
 			}
